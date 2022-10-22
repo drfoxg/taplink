@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Позиционирование */
+  padding: 15px;
+  /* Типографика */
+  font-family: "Roboto", sans-serif;
+  /* Оформление */
+  background-color: #f4f4f4;
+}
+
+.page-wrapper {
+  /* Позиционирование */
+  max-width: 375px;
+  margin: auto;
+  /* Оформление */
+  background: #f4f4f4;
+  box-shadow: 0px 4px 30px rgba(82, 82, 82, 0.25);
+  border-radius: 10px;
+}
+
+.header {
+  /* Позиционирование */
+  padding: 17px 61px 147px;
+  /* Оформление */
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../img/background.png") no-repeat center/cover;
+  border-radius: 0px 0px 90px 90px;
+}
+
+.web-developer-wrapper {
+  /* Позиционирование */
+  padding-bottom: 7px;
+}
+
+.web-developer {
+  /* Типографика */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hello {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
