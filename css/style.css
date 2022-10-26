@@ -26,7 +26,6 @@ body {
   /* Позиционирование */
   padding: 17px 61px 147px;
   /* Оформление */
-
   color: #ffffff;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../img/background.png") no-repeat center/cover;
@@ -91,4 +90,141 @@ body {
   font-size: 12px;
   line-height: 14px;
   color: #4a4a4a;
+}
+
+.card {
+  /* Позиционирование */
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px 15px 20px 15px;
+  /* Оформление */
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.buttons {
+  /* Позиционирование */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 10px;
+  /* Оформление */
+  max-width: 270px;
+}
+
+.button {
+  /* Позиционирование */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Типографика */
+  text-decoration: none;
+  /* Оформление */
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.button.vk {
+  /* Оформление */
+  background-color: #5281b8;
+}
+
+.button.tg {
+  /* Оформление */
+  background-color: #0088cc;
+}
+
+.button.yt {
+  /* Оформление */
+  background-color: #ff0000;
+}
+
+.button.github {
+  /* Позиционирование */
+  gap: 10px;
+  margin-bottom: 10px;
+  /* Типографика */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* Оформление */
+  background-color: #000000;
+}
+
+.preview {
+  /* Позиционирование */
+  margin-bottom: 8px;
+  /* Оформление */
+  width: 240px;
+}
+
+.button.reviews {
+  /* Позиционирование */
+  justify-content: space-between;
+
+  /* Типографика */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* Оформление */
+  background-color: #13a4ad;
+}
+
+.button.reviews > .button-text {
+  /* Позиционирование */
+  margin-left: 10px;
+}
+
+.button.reviews > .button-icon {
+  /* Позиционирование */
+  margin-right: 12px;
+  /* Оформление */
+  width: 12px;
+  height: 24px;
+}
+
+.pages {
+  /* Позиционирование */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 12px;
+  align-items: center;
+  /* Оформление */
+  max-width: 100px;
+  height: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+}
+
+.circle.page1 {
+  background: #d9d9d9;
+}
+
+.circle.page2 {
+  background: #000000;
+}
+
+.circle.page3 {
+  background: #d9d9d9;
+}
+
+.circle.page4 {
+  background: #d9d9d9;
+}
+
+.circle a {
+  /* Оформление */
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
 }
